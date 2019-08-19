@@ -1,0 +1,71 @@
+/* This is the css page for my practice personal homepage */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+    font-family: Varela Round; 
+    src: url('https://fonts.google.com/specimen/Varela+Round'); 
+} 
+
+header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#nameHeading {
+    text-decoration:none;
+    color: rgba(0, 0, 0, .85);
+}
+
+header h1 {
+   /* font-size: 50px;*/
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+}
+
+#topNav {
+    text-align: center;
+}
+
+.topNavigationBar {
+    padding: 100px;
+    border-bottom: 2px solid rgba(208, 208, 208, .5);
+    position: fixed;
+}
+
+li.topNavElem-active {
+    display: inline-block;
+    list-style:none;
+    margin-right:20px; 
+    border-bottom: 2px solid rgba(208, 208, 208, .5);
+}
+
+li.topNavElem {
+    display: inline-block;
+    list-style:none;
+    margin-right:20px;
+}
+
+.topNavElem a:hover {
+    border-bottom: 2px solid rgba(208, 208, 208, .5);
+    color: rgba(0, 0, 0, .85);
+}
+
+.topNavElem-active a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Varela Round', sans-serif;
+    color: rgba(0, 0, 0, .85); 
+    text-align: center;
+}
+
+.topNavElem a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Varela Round', sans-serif;
+    color: rgba(150, 150, 150, .7);
+    text-align: center;
+}
