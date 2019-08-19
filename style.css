@@ -5,6 +5,17 @@
   padding: 0;
 }
 
+#content {
+    max-width: 80%;
+    border: 1px solid rgba(0, 0, 0, .5);
+    padding: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 @font-face {
     font-family: Varela Round; 
     src: url('https://fonts.google.com/specimen/Varela+Round'); 
@@ -21,7 +32,6 @@ header {
 }
 
 header h1 {
-   /* font-size: 50px;*/
     font-family: 'Varela Round', sans-serif;
     text-align: center;
 }
@@ -31,9 +41,7 @@ header h1 {
 }
 
 .topNavigationBar {
-    padding: 100px;
     border-bottom: 2px solid rgba(208, 208, 208, .5);
-    position: fixed;
 }
 
 li.topNavElem-active {
@@ -56,7 +64,7 @@ li.topNavElem {
 
 .topNavElem-active a {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 23px;
     font-family: 'Varela Round', sans-serif;
     color: rgba(0, 0, 0, .85); 
     text-align: center;
@@ -64,7 +72,7 @@ li.topNavElem {
 
 .topNavElem a {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 23px;
     font-family: 'Varela Round', sans-serif;
     color: rgba(150, 150, 150, .7);
     text-align: center;
